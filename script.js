@@ -11,22 +11,22 @@ class Product {
             return `${this.name}, $${this.price.toFixed(2)}, ${this.quantity}`;
         }
     }
+
+    total() {
+    
+        return this.price * this.quantity;
+    }
+    
+    updatePrice(percentage) {
+    
+        this.price = this.price * (1 + percentage / 100);
+    }
 /*
     toString() {
 
         return `${this.name}, $${this.price.toFixed(2)}, ${this.quantity}`;
         //this.name + ", " + this.price;
     }*/
-}
-
-function total(product) {
-
-    return product.price * product.quantity;
-}
-
-function updatePrice(product, percentage) {
-
-    product.price = product.price * (1 + percentage / 100);
 }
 
 const p01 = new Product("Laptop", 1000.00, 5);
@@ -42,11 +42,11 @@ console.log(p02.toString())
 console.log(p02.toString())
 
 
-const total01 = total(p01);
-const total02 = total(p02);
+const total01 = p01.total();
+const total02 = p02.total();
 
 console.log(total01);
 console.log(total02);
 
-updatePrice(p01, 10);
+updatePrice(10);
 console.log(p01.price);
