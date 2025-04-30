@@ -14,6 +14,16 @@ namespace DevSuperior {
             this.Quantity = quantity;
         }
 
+        public double total() {
+
+            return Price * Quantity;
+        }
+
+        public void updatePrice(double percentage) {
+
+            Price = Price * (1 + percentage / 100.00);
+        }
+
         public override string ToString() {
 
             return Name
