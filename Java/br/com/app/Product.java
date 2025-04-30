@@ -1,5 +1,7 @@
 package br.com.app;
 
+@Getter
+@Setter
 public class Product {
 
     private String name;
