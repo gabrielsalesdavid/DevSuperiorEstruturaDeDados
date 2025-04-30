@@ -15,6 +15,16 @@ public class Product {
         this.quantity = quantity;
     }
 
+    public double total(Product product) {
+
+        return price * quantity;
+    }
+
+    public void updatePrice(double percentage) {
+
+        price = price * (1 + percentage / 100.0);
+    }
+
     @Override
     public String toString() {
 
