@@ -9,7 +9,5 @@ public class Main {
 
         System.out.println(p01);
         System.out.println(p02);
-        System.out.println(p01.name);
-        System.out.println(p02.name);
     }
 }
