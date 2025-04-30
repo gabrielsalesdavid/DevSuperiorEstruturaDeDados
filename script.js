@@ -9,7 +9,8 @@ class Product {
 
     toString() {
 
-        return this.name + ", " + this.price;
+        return `${this.name}, $${this.price}, ${this.quantity}`;
+        //this.name + ", " + this.price;
     }
 }
 
@@ -21,3 +22,6 @@ console.log(p01.price)
 
 console.log(p02.name)
 console.log(p02.price)
+
+console.log(p02.toString())
+console.log(p02.toString())
