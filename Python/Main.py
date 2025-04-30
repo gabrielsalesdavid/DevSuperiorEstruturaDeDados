@@ -1,24 +1,18 @@
 class Product:
-
     def __init__(self, name, price, quantity):
         self.name = name
         self.price = price
         self.quantity = quantity
 
+    def total(self):
+        return self.price * self.quantity
+    
+    def update_price(self, percentage):
+        self.price = self.price * (1 + percentage / 100.00)
+
     def __str__(self):
         return f"{self.name}, $ {self.price:.2f}, {self.quantity}"
         
-
-
-    def total(product):
-
-        return product.price * product.quantity
-    
-
-    def update_price(product, percentage):
-
-        product.price = product.price * (1 + percentage / 100.00)
-
 
 p01 = Product("LapTop", 1000.00, 5)
 p02 = Product("HeadPhone", 200.00, 22)
@@ -28,8 +22,8 @@ print(p02)
 print(p01.name)
 print(p02.name)
 
-total01 = total(p01)
-total02 = total(p02)
+total01 = p01.total()
+total02 = p02.total()
 
 print(total01)
 print(total02)
