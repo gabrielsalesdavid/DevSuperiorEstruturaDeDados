@@ -9,7 +9,7 @@ class Product {
 
     toString() {
 
-        return `${this.name}, $${this.price}, ${this.quantity}`;
+        return `${this.name}, $${this.price.toFixed(2)}, ${this.quantity}`;
         //this.name + ", " + this.price;
     }
 }
