@@ -12,3 +12,16 @@ console.log(str01);
 const str04 = "Cliente " + name + " tem idade " + age + " anos e fez " + points + " pontos.";
 console.log("str04:");
 console.log(str04);
+
+const str05 = "Cliente: " + name + "\nIdade: " + age;
+const str06 = "c:\\Program Files\\Windows";
+const str07 = 'Senha = "carro123"';
+const str08 = "Senha = \"carro123\"";
+const str09 = "<html>\n"
+                + "\t<body>\n"
+                + "\t\t<p> Hello, World!</p>\n"
+                + "\t\</>body>"
+                + "</html>\n";
+
+console.log("str05:");
+console.log(str05);
