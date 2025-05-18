@@ -44,3 +44,15 @@ console.log("str04.slice(5, 2):", `"${str04.slice(5, 2)}"`);
 console.log("str04.substring(-3):", `"${str04.substring(-3)}"`);
 console.log("str04.substring(2, 5):", `"${str04.substring(2, 5)}"`);
 console.log("str04.substring(5, 2):", `"${str04.substring(5, 2)}"`);
+
+console.log("str02.toLowerCase():", str02.toLocaleLowerCase());
+
+console.log("str02.toUpperCase():", str02.toUpperCase());
+
+console.log(`"   Hello World!   ".trim():`, `"${'   Hello World!   '.trim()}"`);
+
+console.log(str04[2]);
+
+console.log("str02.startWith('Wor'):", str02.startsWith("Wor"));
+
+console.log("str02.endsWith('!'):", str02.endsWith("!"));
