@@ -56,3 +56,13 @@ console.log(str04[2]);
 console.log("str02.startWith('Wor'):", str02.startsWith("Wor"));
 
 console.log("str02.endsWith('!'):", str02.endsWith("!"));
+
+function validateCEP(cep) {
+
+    const regex = /^\d{5}-?\d{3}$/;
+    return regex.test(cep);
+}
+
+console.log(validateCEP("12345-678"));
+console.log(validateCEP("12345678"));
+console.log(validateCEP("1234-5678"));
