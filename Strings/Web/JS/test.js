@@ -113,3 +113,19 @@ if(emails.length > 0) {
 
     console.log("Nenhum email encontrado.");
 }
+
+function validaTelefone(str) {
+
+    const regex = /^(?:\+55\s?)?(?:\([1-9]{2}\)|[1-9]{2})\s?(?:9\s?)?[6789][0-9{3}\s?-?\s?[0-9/]{4}$/;
+    return regex.test(str);
+}
+
+console.log(validaTelefone("+55 11 9 5478 6321"));
+
+function validaDate(str) {
+
+    const regex = /^(0?[1-9]|[12][0-9]|3[01])\/(0?[1-9]|1[012])\/(19|20)\d\d$/;
+    return regex.test(str);
+}
+
+console.log(validaDate("15/03/2024"));
