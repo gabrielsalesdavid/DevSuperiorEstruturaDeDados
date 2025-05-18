@@ -75,3 +75,12 @@ function removeNonDigits(string) {
 
 console.log(removeNonDigits("94923784799"));
 console.log(removeNonDigits("213.445.034-82"));
+
+function validateBrDomain(domain) {
+
+    const regex = /\.br$/;
+    return regex.test(regex, "");
+}
+
+console.log(validateBrDomain("batata.com.br"));
+console.log(validateBrDomain("banana.com"));
