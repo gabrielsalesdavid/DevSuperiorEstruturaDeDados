@@ -1,6 +1,6 @@
 /**
- * @param {number[]} nums
- * @return {number}
+ * @param {number} nums
+ * @return {product}
  */
 
 const dotProduct = (nums01, nums02) => {

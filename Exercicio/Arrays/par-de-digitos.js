@@ -1,6 +1,6 @@
 /**
- * @param {number[]} nums
- * @return {number}
+ * @param {number} nums
+ * @return {findNumbers}
  */
 
 const findNumbers = (nums) => {

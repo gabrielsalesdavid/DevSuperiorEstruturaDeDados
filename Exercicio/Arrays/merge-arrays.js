@@ -1,7 +1,7 @@
 /**
- * @param {number[]} nums01
+ * @param {number} nums01
  * @param {number}
- * @param {number[]} nums02
+ * @param {number} nums02
  * @param {number}
  * @return {void}
  */

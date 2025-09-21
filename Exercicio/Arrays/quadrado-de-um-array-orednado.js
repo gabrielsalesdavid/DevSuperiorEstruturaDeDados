@@ -1,6 +1,6 @@
 /**
  * @param {number[]} nums
- * @return {number}
+ * @return {result}
  */
 
 const sortedSquares = (nums) => {
