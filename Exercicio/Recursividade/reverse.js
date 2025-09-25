@@ -9,7 +9,7 @@ function reverse(list) {
     const newList = reverse(tail);
     newList.push(head);
 
-    return reverse(tail).concat([head]);
+    return newList;
 }
 
 const result = reverse(["azul", "verde", "preto", "rosa"]);
