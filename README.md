@@ -95,8 +95,12 @@ Este repositório é um projeto de **aprendizagem ativa** focado em:
 │   └── time-test.js                    # Testes de performance
 │
 ├── docs/                               # Documentação
+│   ├── fundamentos/                    # Tutoriais de fundamentos por linguagem
+│   │   ├── javascript-fundamentos.md   # Tutorial JavaScript (650+ linhas, 50+ exemplos)
+│   │   ├── python-fundamentos.md       # Tutorial Python (650+ linhas, 50+ exemplos)
+│   │   ├── java-fundamentos.md         # Tutorial Java (650+ linhas, 50+ exemplos)
+│   │   └── csharp-fundamentos.md       # Tutorial C# (650+ linhas, 50+ exemplos)
 │   ├── java-documentation.html         # Guia Java completo (referência)
-│   ├── java-documentation.pdf          # PDF da documentação Java
 │   └── README.md                       # Instruções de uso
 │
 ├── .github/
@@ -351,8 +355,25 @@ node "Exercicio/Busca e Ordenação/merge-sort.js"
 - **`docs/java-documentation.html`** - Guia de referência Java (30+ páginas)
 - **`.github/copilot-instructions.md`** - Instruções para agentes AI
 
+### 📖 Documentação de Fundamentos por Linguagem
+
+Este repositório inclui **tutoriais abrangentes** de fundamentos para as 4 linguagens utilizadas:
+
+| Linguagem | Arquivo | Conteúdo |
+|-----------|---------|----------|
+| **JavaScript** | `docs/fundamentos/javascript-fundamentos.md` | 650+ linhas com 50+ exemplos: tipos, variáveis, operadores, controle, funções, arrays, objetos, async/await, boas práticas |
+| **Python** | `docs/fundamentos/python-fundamentos.md` | 650+ linhas com 50+ exemplos: tipos, variáveis, operadores, controle, funções, coleções, OOP, exceções, PEP 8 |
+| **Java** | `docs/fundamentos/java-fundamentos.md` | 650+ linhas com 50+ exemplos: tipos, variáveis, operadores, controle, métodos, arrays, OOP, exceções, interfaces |
+| **C#** | `docs/fundamentos/csharp-fundamentos.md` | 650+ linhas com 50+ exemplos: tipos, variáveis, operadores, controle, métodos, LINQ, OOP, properties, async |
+
+**Como usar**:
+1. Acesse a pasta `docs/fundamentos/`
+2. Escolha a linguagem desejada
+3. Abra o arquivo `.md` no VS Code ou navegador
+4. Cada arquivo contém 11 seções estruturadas com exemplos práticos
+
 ### Links Externos
-- [MDN - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/)
+- [MDN - JavaScript](https://developer.mozilla.org/en-us/docs/Web/JavaScript/)
 - [Big O Complexity Chart](https://www.bigocheatsheet.com/)
 - [Visualgo - Algoritmos Animados](https://visualgo.net/)
 - [LeetCode](https://leetcode.com/) - Mais problemas para praticar
