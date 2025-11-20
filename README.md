@@ -352,6 +352,12 @@ node "Exercicio/Busca e Ordenação/merge-sort.js"
 ## 🔗 Recursos Adicionais
 
 ### Documentação Local
+- **`docs/conceitos/`** - Conceitos de Estruturas de Dados e Algoritmos por linguagem:
+  - `javascript-conceitos.md` - Arrays, Listas Ligadas, Pilhas, Filas, BST, Busca, Ordenação
+  - `python-conceitos.md` - List, Deque, Linked List, Stack, Queue, Tree, Algoritmos
+  - `java-conceitos.md` - ArrayList, LinkedList, Stack, Queue, BST, Busca, Ordenação
+  - `csharp-conceitos.md` - List<T>, LinkedList<T>, Stack<T>, Queue<T>, LINQ
+- **`docs/fundamentos/`** - Tutoriais de fundamentos por linguagem (650+ linhas cada)
 - **`docs/java-documentation.html`** - Guia de referência Java (30+ páginas)
 - **`.github/copilot-instructions.md`** - Instruções para agentes AI
 
