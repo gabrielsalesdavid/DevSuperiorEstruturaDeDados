@@ -1,6 +1,6 @@
 export default class GenericTree {
 
-    // #root; // Raiz da árvore
+    #root; // Raiz da árvore
     #size; // Tamanho da árvore
 
     constructor() {
