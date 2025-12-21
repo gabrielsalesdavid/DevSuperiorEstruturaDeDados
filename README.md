@@ -24,31 +24,67 @@ Este repositório é um projeto de **aprendizagem ativa** focado em:
 ```
 .
 ├── Exercicio/                          # Pasta principal com exercícios
+│   ├── Algoritmos gulosos/             # Algoritmos gulosos (greedy)
+│   │   ├── beasts-cage.js
+│   │   ├── bottles.js
+│   │   ├── coin-change.js
+│   │   ├── cookies.js
+│   │   ├── interval-scheduling.js
+│   │   ├── largest-number-possible.js
+│   │   ├── lemonade.js
+│   │   ├── minimum-rooms.js
+│   │   ├── police-and-thieves.js
+│   │   ├── scarecrow.js
+│   │   ├── task-and-deadlines.js
+│   │   └── vessel.js
+│   │
 │   ├── Arrays/                         # Operações com arrays
 │   │   ├── contains-duplicate.js
 │   │   ├── dot-product-two-arrays.js
 │   │   ├── duplicar-zeros.js
-│   │   └── ... (mais 5 arquivos)
+│   │   ├── encontrar-vendedor-com-maior-valor-de-venda.js
+│   │   ├── Max-consecutive-ones.js
+│   │   ├── merge-arrays.js
+│   │   ├── par-de-digitos.js
+│   │   └── quadrado-de-um-array-ordenado.js
 │   │
 │   ├── Arvores/                        # Estruturas de árvore
-│   │   └── (exercícios em desenvolvimento)
+│   │   ├── arvore-generica.js
+│   │   ├── binary-search-tree-set.js
+│   │   ├── generic-tree.js
+│   │   ├── add-remove-test.js
+│   │   ├── set-test.js
+│   │   ├── teste-arvore.js
+│   │   └── main.js
 │   │
 │   ├── Busca e Ordenação/              # Algoritmos de busca e sort
 │   │   ├── bubble-sort.js
+│   │   ├── bubble-sort-e-complexidade.js
 │   │   ├── busca-binaria.js
+│   │   ├── busca-binaria-recursiva.js
 │   │   ├── busca-sequencial.js
 │   │   ├── insertion-sort.js
 │   │   ├── merge-sort.js
 │   │   ├── quick-sort.js
-│   │   ├── selection-sort.js
-│   │   └── bubble-sort-e-complexidade.js
+│   │   └── selection-sort.js
 │   │
 │   ├── Listas/                         # Listas ligadas e operações
 │   │   ├── estrutura-node.js
 │   │   ├── doubly-linked-list.js
 │   │   ├── adiciona-elemento-no-inicio.js
 │   │   ├── adicionar-elemento-ao-final-da-lista.js
+│   │   ├── adicionar-elemento-em-uma-posição-especifica.js
 │   │   ├── imprimir-elementos-da-lista.js
+│   │   ├── limpa-lista.js
+│   │   ├── obtendo-o-tamanho-da-lista.js
+│   │   ├── remove-elemento-da-lista.js
+│   │   ├── remove-elemento-na-posição-especifica.js
+│   │   ├── remove-ultimo-elemento.js
+│   │   ├── remove-primeiro-elemento.js
+│   │   ├── verifica-se-lista-esta-vazia.js
+│   │   ├── main.js
+│   │   ├── search-position-duplicated.js
+│   │   ├── reverse-linked-list.js
 │   │   └── ... (mais operações)
 │   │
 │   ├── Pilhas e Filas/                 # Pilhas (Stack) e Filas (Queue)
@@ -58,15 +94,18 @@ Este repositório é um projeto de **aprendizagem ativa** focado em:
 │   │   ├── sandwich.js                 # Exemplo com fila
 │   │   ├── is-balanced.js              # Parênteses balanceados
 │   │   ├── valid-parentheses.js
-│   │   └── ... (mais exemplos)
+│   │   ├── ... (mais exemplos)
 │   │
 │   ├── Conjuntos e dicionários/        # Sets e Maps
+│   │   ├── alunos.js
 │   │   ├── intersection.js
 │   │   ├── two-sum.js
 │   │   ├── word-count.js
 │   │   ├── votacao.js
 │   │   ├── transacoes.js
-│   │   └── ... (mais exercícios)
+│   │   ├── visitantes.js
+│   │   ├── doct-test.js
+│   │   └── script.js
 │   │
 │   ├── Complexidade de algoritmos/     # Análise de complexidade
 │   │   ├── busca-sequencial.js
@@ -80,7 +119,8 @@ Este repositório é um projeto de **aprendizagem ativa** focado em:
 │   │   ├── fibonacci.js
 │   │   ├── reverse.js
 │   │   ├── pilha-de-chamadas.js
-│   │   └── recursividade-de-cauda.js
+│   │   ├── recursividade-de-cauda.js
+│   │   └── ... (mais exercícios)
 │   │
 │   ├── JS*/                            # Exercícios tópicos específicos
 │   │   ├── JSanagram/                  # Anagramas
@@ -100,6 +140,11 @@ Este repositório é um projeto de **aprendizagem ativa** focado em:
 │   │   ├── python-fundamentos.md       # Tutorial Python (650+ linhas, 50+ exemplos)
 │   │   ├── java-fundamentos.md         # Tutorial Java (650+ linhas, 50+ exemplos)
 │   │   └── csharp-fundamentos.md       # Tutorial C# (650+ linhas, 50+ exemplos)
+│   ├── conceitos/                      # Conceitos de estruturas de dados
+│   │   ├── javascript-conceitos.md
+│   │   ├── python-conceitos.md
+│   │   ├── java-conceitos.md
+│   │   └── csharp-conceitos.md
 │   ├── java-documentation.html         # Guia Java completo (referência)
 │   └── README.md                       # Instruções de uso
 │
@@ -150,7 +195,26 @@ Este repositório é um projeto de **aprendizagem ativa** focado em:
 
 ## 📚 Tópicos Cobertos
 
-### 1. **Arrays** (8 exercícios)
+### 1. **Algoritmos Gulosos** (12 exercícios)
+- Problema do sanduíche
+- Caixas de animais
+- Troca de moedas
+- Cookies e crianças
+- Agendamento de intervalos
+- Maior número possível
+- Limonada quente
+- Salas mínimas necessárias
+- Polícia vs ladrões
+- Espantalhos
+- Tarefas e prazos
+- Navios/vasos
+
+**Como rodar:**
+```bash
+node "Exercicio/Algoritmos gulosos/coin-change.js"
+```
+
+### 2. **Arrays** (8 exercícios)
 - Buscar duplicatas
 - Produto escalar de dois arrays
 - Duplicar zeros
@@ -163,7 +227,7 @@ Este repositório é um projeto de **aprendizagem ativa** focado em:
 node "Exercicio/Arrays/contains-duplicate.js"
 ```
 
-### 2. **Listas Ligadas** (10+ exercícios)
+### 3. **Listas Ligadas** (17 exercícios)
 - Estrutura Node básica
 - Listas duplamente ligadas
 - Adicionar/remover elementos
@@ -177,7 +241,7 @@ node "Exercicio/Arrays/contains-duplicate.js"
 node "Exercicio/Listas/estrutura-node.js"
 ```
 
-### 3. **Pilhas e Filas** (12+ exercícios)
+### 4. **Pilhas e Filas** (12 exercícios)
 - Implementação com array
 - Implementação com lista ligada
 - Problema: sanduíches em fila
@@ -192,7 +256,7 @@ node "Exercicio/Pilhas e Filas/sandwich.js"
 # Output: [1, 1] ou [0, 1] (alunos que não comeram)
 ```
 
-### 4. **Busca e Ordenação** (9 algoritmos)
+### 5. **Busca e Ordenação** (9 algoritmos)
 - **Busca**: Sequencial, Binária (recursiva)
 - **Ordenação**: 
   - Bubble Sort (com análise de complexidade)
@@ -208,7 +272,20 @@ node "Exercicio/Busca e Ordenação/bubble-sort.js"
 node "Exercicio/Busca e Ordenação/quick-sort.js"
 ```
 
-### 5. **Conjuntos e Dicionários** (8+ exercícios)
+### 5.5. **Árvores** (7 exercícios)
+- Árvore Genérica
+- Árvore Binária de Busca (BST)
+- Árvores com Set
+- Operações: adicionar, remover, buscar
+- Testes e validações
+
+**Como rodar:**
+```bash
+node "Exercicio/Arvores/arvore-generica.js"
+node "Exercicio/Arvores/binary-search-tree-set.js"
+```
+
+### 6. **Conjuntos e Dicionários** (9 exercícios)
 - Interseção de conjuntos
 - Two Sum (encontrar par com soma alvo)
 - Contagem de palavras
@@ -222,7 +299,7 @@ node "Exercicio/Busca e Ordenação/quick-sort.js"
 node "Exercicio/Conjuntos e dicionários/two-sum.js"
 ```
 
-### 6. **Análise de Complexidade** (5 exemplos)
+### 7. **Análise de Complexidade** (5 exemplos)
 - Ordem O(n) - Busca Sequencial
 - Ordem O(log n) - Logarítmica
 - Ordem O(n²) - Quadrática
@@ -234,7 +311,7 @@ node "Exercicio/Conjuntos e dicionários/two-sum.js"
 node "Exercicio/Complexidade de algoritmos/busca-sequencial.js"
 ```
 
-### 7. **Recursividade** (5+ exercícios)
+### 8. **Recursividade** (6 exercícios)
 - Fatorial
 - Fibonacci
 - Reverse (inverter array/string)
@@ -247,7 +324,7 @@ node "Exercicio/Complexidade de algoritmos/busca-sequencial.js"
 node "Exercicio/Recursividade/fibonacci.js"
 ```
 
-### 8. **Exercícios Específicos** (Validações e Algoritmos)
+### 9. **Exercícios Específicos** (9 tipos - Validações e Algoritmos)
 - **CPF**: Validação de CPF brasileira
 - **Email**: Validação de formato
 - **Senha**: Critérios de força
@@ -320,34 +397,38 @@ node "Exercicio/Busca e Ordenação/merge-sort.js"
 | Tópico | Quantidade | Exemplos |
 |--------|-----------|----------|
 | **Arrays** | 8 exercícios | contains-duplicate, merge-arrays |
-| **Listas** | 10+ exercícios | estrutura-node, doubly-linked-list |
-| **Pilhas e Filas** | 12+ exercícios | sandwich, is-balanced |
+| **Listas** | 17 exercícios | estrutura-node, doubly-linked-list |
+| **Pilhas e Filas** | 12 exercícios | sandwich, is-balanced |
 | **Busca e Ordenação** | 9 algoritmos | merge-sort, quick-sort, busca-binaria |
-| **Conjuntos e Dicionários** | 8+ exercícios | two-sum, word-count |
+| **Conjuntos e Dicionários** | 9 exercícios | two-sum, word-count |
 | **Complexidade** | 5 exemplos | Análise O(n), O(n²), O(2ⁿ) |
-| **Recursividade** | 5+ exercícios | fibonacci, fatorial |
-| **Validações** | 7 tipos | CPF, email, senha, anagrama |
-| **Total** | **60+** | Exercícios completos |
+| **Recursividade** | 6 exercícios | fibonacci, fatorial |
+| **Algoritmos Gulosos** | 12 exercícios | greedy algorithms |
+| **Árvores** | 7 exercícios | BST, árvore genérica |
+| **Validações** | 9 tipos | CPF, email, senha, anagrama, data, transação |
+| **Total** | **96** | Exercícios completos |
 
 ## 🎓 Currículo de Aprendizagem Sugerido
 
 ### Nível 1: Iniciante
 1. Arrays básicos
-2. Listas simples
-3. Pilhas e Filas
-4. Recursividade simples
+2. Validações e manipulação de strings
+3. Listas simples
+4. Pilhas e Filas
+5. Recursividade simples
 
 ### Nível 2: Intermediário
-5. Algoritmos de busca e ordenação
-6. Análise de complexidade
-7. Conjuntos e Dicionários
-8. Listas duplamente ligadas
+6. Algoritmos de busca e ordenação
+7. Análise de complexidade
+8. Conjuntos e Dicionários
+9. Listas duplamente ligadas
+10. Árvores binárias de busca
 
 ### Nível 3: Avançado
-9. Árvores (em desenvolvimento)
-10. Grafos (em desenvolvimento)
-11. Algoritmos dinâmicos
-12. Otimizações avançadas
+11. Algoritmos gulosos
+12. Programação dinâmica
+13. Grafos (em desenvolvimento)
+14. Otimizações avançadas
 
 ## 🔗 Recursos Adicionais
 
@@ -469,7 +550,7 @@ Tem dúvidas? Precisa de ajuda?
 
 ---
 
-**Última atualização**: 20 de novembro de 2025
+**Última atualização**: 21 de dezembro de 2025
 
 ⭐ Se este repositório foi útil, considere dar uma estrela (star) no GitHub!
 
