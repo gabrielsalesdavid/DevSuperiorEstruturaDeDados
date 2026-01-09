@@ -427,7 +427,7 @@ node "Exercicio/Busca e Ordenação/merge-sort.js"
 ### Nível 3: Avançado
 11. Algoritmos gulosos
 12. Programação dinâmica
-13. Grafos (em desenvolvimento)
+13. Grafos
 14. Otimizações avançadas
 
 ## 🔗 Recursos Adicionais
